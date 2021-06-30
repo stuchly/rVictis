@@ -88,7 +88,7 @@ vaevictis <-function(x,
     
             }
             ss<-.upsample.labels(labl,N=upsample$N,takeall = upsample$takeall)
-                 knn<-knn.annoy(x[ss,],K=k)
+            knn<-knn.annoy(x[ss,],K=k)
             layout = vv$dimred(
               x_train = x[ss,],
               dim = as.integer(dim),

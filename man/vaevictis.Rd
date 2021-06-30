@@ -43,7 +43,7 @@ By default split is performed before shuffling - see \code{shuffle}}
 
 \item{patience}{integer; maxim patience for for "vaevictis" training (early stopping).}
 
-\item{ww}{vector double; weights for vaevictis in this order - tsne_regularisations, ivis pn loss, reconstruction error, KL divergence}
+\item{ww}{vector double; weights for vaevictis in this order - tsne regularization, cense regularization, umap regularization, ivis pn loss, reconstruction error, KL divergence}
 
 \item{margin}{double; ivis pn loss margin}
 
